@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC41E6E11844036C00B74022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6E01844036C00B74022 /* Foundation.framework */; };
+		EC41E6E31844036C00B74022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6E21844036C00B74022 /* CoreGraphics.framework */; };
+		EC41E6E51844036C00B74022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6E41844036C00B74022 /* UIKit.framework */; };
+		EC41E6EB1844036C00B74022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC41E6E91844036C00B74022 /* InfoPlist.strings */; };
+		EC41E6ED1844036C00B74022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E6EC1844036C00B74022 /* main.m */; };
+		EC41E6F11844036C00B74022 /* HUExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E6F01844036C00B74022 /* HUExampleAppDelegate.m */; };
+		EC41E6F31844036D00B74022 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC41E6F21844036D00B74022 /* Images.xcassets */; };
+		EC41E6FA1844036D00B74022 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6F91844036D00B74022 /* XCTest.framework */; };
+		EC41E6FB1844036D00B74022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6E01844036C00B74022 /* Foundation.framework */; };
+		EC41E6FC1844036D00B74022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC41E6E41844036C00B74022 /* UIKit.framework */; };
+		EC41E7041844036D00B74022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC41E7021844036D00B74022 /* InfoPlist.strings */; };
+		EC41E7061844036D00B74022 /* HUTypedEventsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E7051844036D00B74022 /* HUTypedEventsExampleTests.m */; };
+		EC41E7121844038C00B74022 /* HUTypedEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E7111844038C00B74022 /* HUTypedEvents.m */; };
+		EC41E71518440D6400B74022 /* HUEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E71418440D6400B74022 /* HUEventHandler.m */; };
+		EC41E7181844110300B74022 /* HUExampleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E7171844110300B74022 /* HUExampleMainViewController.m */; };
+		EC41E71B1844131A00B74022 /* HUModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41E71A1844131A00B74022 /* HUModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC41E6FD1844036D00B74022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC41E6D51844036C00B74022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC41E6DC1844036C00B74022;
+			remoteInfo = GSTypedEventsExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC41E6DD1844036C00B74022 /* HUTypedEventsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUTypedEventsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC41E6E01844036C00B74022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC41E6E21844036C00B74022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC41E6E41844036C00B74022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC41E6E81844036C00B74022 /* HUTypedEventsExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUTypedEventsExample-Info.plist"; sourceTree = "<group>"; };
+		EC41E6EA1844036C00B74022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC41E6EC1844036C00B74022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC41E6EE1844036C00B74022 /* HUTypedEventsExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUTypedEventsExample-Prefix.pch"; sourceTree = "<group>"; };
+		EC41E6EF1844036C00B74022 /* HUExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUExampleAppDelegate.h; sourceTree = "<group>"; };
+		EC41E6F01844036C00B74022 /* HUExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUExampleAppDelegate.m; sourceTree = "<group>"; };
+		EC41E6F21844036D00B74022 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC41E6F81844036D00B74022 /* HUTypedEventsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUTypedEventsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC41E6F91844036D00B74022 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC41E7011844036D00B74022 /* HUTypedEventsExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUTypedEventsExampleTests-Info.plist"; sourceTree = "<group>"; };
+		EC41E7031844036D00B74022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC41E7051844036D00B74022 /* HUTypedEventsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUTypedEventsExampleTests.m; sourceTree = "<group>"; };
+		EC41E7101844038C00B74022 /* HUTypedEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTypedEvents.h; sourceTree = "<group>"; };
+		EC41E7111844038C00B74022 /* HUTypedEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTypedEvents.m; sourceTree = "<group>"; };
+		EC41E71318440D6400B74022 /* HUEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUEventHandler.h; sourceTree = "<group>"; };
+		EC41E71418440D6400B74022 /* HUEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUEventHandler.m; sourceTree = "<group>"; };
+		EC41E7161844110300B74022 /* HUExampleMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUExampleMainViewController.h; sourceTree = "<group>"; };
+		EC41E7171844110300B74022 /* HUExampleMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUExampleMainViewController.m; sourceTree = "<group>"; };
+		EC41E7191844131A00B74022 /* HUModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUModalViewController.h; sourceTree = "<group>"; };
+		EC41E71A1844131A00B74022 /* HUModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC41E6DA1844036C00B74022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E6E31844036C00B74022 /* CoreGraphics.framework in Frameworks */,
+				EC41E6E51844036C00B74022 /* UIKit.framework in Frameworks */,
+				EC41E6E11844036C00B74022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC41E6F51844036D00B74022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E6FA1844036D00B74022 /* XCTest.framework in Frameworks */,
+				EC41E6FC1844036D00B74022 /* UIKit.framework in Frameworks */,
+				EC41E6FB1844036D00B74022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC41E6D41844036C00B74022 = {
+			isa = PBXGroup;
+			children = (
+				EC41E70F1844038C00B74022 /* src */,
+				EC41E6E61844036C00B74022 /* HUTypedEventsExample */,
+				EC41E6FF1844036D00B74022 /* HUTypedEventsExampleTests */,
+				EC41E6DF1844036C00B74022 /* Frameworks */,
+				EC41E6DE1844036C00B74022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC41E6DE1844036C00B74022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E6DD1844036C00B74022 /* HUTypedEventsExample.app */,
+				EC41E6F81844036D00B74022 /* HUTypedEventsExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC41E6DF1844036C00B74022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E6E01844036C00B74022 /* Foundation.framework */,
+				EC41E6E21844036C00B74022 /* CoreGraphics.framework */,
+				EC41E6E41844036C00B74022 /* UIKit.framework */,
+				EC41E6F91844036D00B74022 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC41E6E61844036C00B74022 /* HUTypedEventsExample */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E6EF1844036C00B74022 /* HUExampleAppDelegate.h */,
+				EC41E6F01844036C00B74022 /* HUExampleAppDelegate.m */,
+				EC41E71318440D6400B74022 /* HUEventHandler.h */,
+				EC41E71418440D6400B74022 /* HUEventHandler.m */,
+				EC41E7161844110300B74022 /* HUExampleMainViewController.h */,
+				EC41E7171844110300B74022 /* HUExampleMainViewController.m */,
+				EC41E7191844131A00B74022 /* HUModalViewController.h */,
+				EC41E71A1844131A00B74022 /* HUModalViewController.m */,
+				EC41E6F21844036D00B74022 /* Images.xcassets */,
+				EC41E6E71844036C00B74022 /* Supporting Files */,
+			);
+			path = HUTypedEventsExample;
+			sourceTree = "<group>";
+		};
+		EC41E6E71844036C00B74022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E6E81844036C00B74022 /* HUTypedEventsExample-Info.plist */,
+				EC41E6E91844036C00B74022 /* InfoPlist.strings */,
+				EC41E6EC1844036C00B74022 /* main.m */,
+				EC41E6EE1844036C00B74022 /* HUTypedEventsExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC41E6FF1844036D00B74022 /* HUTypedEventsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E7051844036D00B74022 /* HUTypedEventsExampleTests.m */,
+				EC41E7001844036D00B74022 /* Supporting Files */,
+			);
+			path = HUTypedEventsExampleTests;
+			sourceTree = "<group>";
+		};
+		EC41E7001844036D00B74022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E7011844036D00B74022 /* HUTypedEventsExampleTests-Info.plist */,
+				EC41E7021844036D00B74022 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC41E70F1844038C00B74022 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EC41E7101844038C00B74022 /* HUTypedEvents.h */,
+				EC41E7111844038C00B74022 /* HUTypedEvents.m */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC41E6DC1844036C00B74022 /* HUTypedEventsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC41E7091844036D00B74022 /* Build configuration list for PBXNativeTarget "HUTypedEventsExample" */;
+			buildPhases = (
+				EC41E6D91844036C00B74022 /* Sources */,
+				EC41E6DA1844036C00B74022 /* Frameworks */,
+				EC41E6DB1844036C00B74022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUTypedEventsExample;
+			productName = GSTypedEventsExample;
+			productReference = EC41E6DD1844036C00B74022 /* HUTypedEventsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC41E6F71844036D00B74022 /* HUTypedEventsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC41E70C1844036D00B74022 /* Build configuration list for PBXNativeTarget "HUTypedEventsExampleTests" */;
+			buildPhases = (
+				EC41E6F41844036D00B74022 /* Sources */,
+				EC41E6F51844036D00B74022 /* Frameworks */,
+				EC41E6F61844036D00B74022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC41E6FE1844036D00B74022 /* PBXTargetDependency */,
+			);
+			name = HUTypedEventsExampleTests;
+			productName = GSTypedEventsExampleTests;
+			productReference = EC41E6F81844036D00B74022 /* HUTypedEventsExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC41E6D51844036C00B74022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Hulu;
+				TargetAttributes = {
+					EC41E6F71844036D00B74022 = {
+						TestTargetID = EC41E6DC1844036C00B74022;
+					};
+				};
+			};
+			buildConfigurationList = EC41E6D81844036C00B74022 /* Build configuration list for PBXProject "HUTypedEventsExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC41E6D41844036C00B74022;
+			productRefGroup = EC41E6DE1844036C00B74022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC41E6DC1844036C00B74022 /* HUTypedEventsExample */,
+				EC41E6F71844036D00B74022 /* HUTypedEventsExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC41E6DB1844036C00B74022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E6EB1844036C00B74022 /* InfoPlist.strings in Resources */,
+				EC41E6F31844036D00B74022 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC41E6F61844036D00B74022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E7041844036D00B74022 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC41E6D91844036C00B74022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E71B1844131A00B74022 /* HUModalViewController.m in Sources */,
+				EC41E6F11844036C00B74022 /* HUExampleAppDelegate.m in Sources */,
+				EC41E71518440D6400B74022 /* HUEventHandler.m in Sources */,
+				EC41E7121844038C00B74022 /* HUTypedEvents.m in Sources */,
+				EC41E7181844110300B74022 /* HUExampleMainViewController.m in Sources */,
+				EC41E6ED1844036C00B74022 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC41E6F41844036D00B74022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41E7061844036D00B74022 /* HUTypedEventsExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC41E6FE1844036D00B74022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC41E6DC1844036C00B74022 /* HUTypedEventsExample */;
+			targetProxy = EC41E6FD1844036D00B74022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC41E6E91844036C00B74022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC41E6EA1844036C00B74022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC41E7021844036D00B74022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC41E7031844036D00B74022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC41E7071844036D00B74022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC41E7081844036D00B74022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC41E70A1844036D00B74022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUTypedEventsExample/HUTypedEventsExample-Prefix.pch";
+				INFOPLIST_FILE = "HUTypedEventsExample/HUTypedEventsExample-Info.plist";
+				PRODUCT_NAME = HUTypedEventsExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC41E70B1844036D00B74022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUTypedEventsExample/HUTypedEventsExample-Prefix.pch";
+				INFOPLIST_FILE = "HUTypedEventsExample/HUTypedEventsExample-Info.plist";
+				PRODUCT_NAME = HUTypedEventsExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC41E70D1844036D00B74022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUTypedEventsExample.app/HUTypedEventsExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUTypedEventsExample/HUTypedEventsExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HUTypedEventsExampleTests/HUTypedEventsExampleTests-Info.plist";
+				PRODUCT_NAME = HUTypedEventsExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC41E70E1844036D00B74022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUTypedEventsExample.app/HUTypedEventsExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUTypedEventsExample/HUTypedEventsExample-Prefix.pch";
+				INFOPLIST_FILE = "HUTypedEventsExampleTests/HUTypedEventsExampleTests-Info.plist";
+				PRODUCT_NAME = HUTypedEventsExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC41E6D81844036C00B74022 /* Build configuration list for PBXProject "HUTypedEventsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC41E7071844036D00B74022 /* Debug */,
+				EC41E7081844036D00B74022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC41E7091844036D00B74022 /* Build configuration list for PBXNativeTarget "HUTypedEventsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC41E70A1844036D00B74022 /* Debug */,
+				EC41E70B1844036D00B74022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC41E70C1844036D00B74022 /* Build configuration list for PBXNativeTarget "HUTypedEventsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC41E70D1844036D00B74022 /* Debug */,
+				EC41E70E1844036D00B74022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC41E6D51844036C00B74022 /* Project object */;
+}
