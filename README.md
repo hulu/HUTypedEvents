@@ -18,7 +18,7 @@ Usage
 
 For example, there is an event called EventX, it passes two params: (int)x and (float)y
  
-*** PART I:  Define the event ***
+## 1. Define the event
 
 Create a centralized event handler class, make it a singleton and declare/implement the event logic through the helper methods:
  
@@ -42,15 +42,17 @@ CentralHandler.m:
     
     @end
  
-*** PART II:  Raise the event from any object ***
+## 2. Raise the event from any object
 
 Call this anywhere:
 
     [[CentralHandler instance] handleEventX_x:someX y:someY];
  
-*** PART III: Register an object to be a listener of this event ***
+## 3. Register an object to be a listener of this event
  
-Make the object conform to EventX, and implement the protocol method handleEventX_x:(int)x y:(float)y
+Make the object conform to EventX, and implement the protocol method
+
+    - (void) handleEventX_x:(int)x y:(float)y;
  
 In the initialization method, call:
 
