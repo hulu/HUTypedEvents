@@ -16,7 +16,15 @@ HUTypedEvents provides an alternative solution to passing events in Objective C.
 Usage
 =====
 
-For example, there is an event called EventX, it passes two params: (int)x and (float)y
+## 0. Installation
+
+`HUTypedEvents` is on CocoaPods.
+
+```
+pod install HUTypedEvents
+```
+
+**Note: ** For example, there is an event called EventX, it passes two params: (int)x and (float)y
  
 ## 1. Define the event
 
