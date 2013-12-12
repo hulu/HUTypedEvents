@@ -24,7 +24,9 @@ Usage
 pod install HUTypedEvents
 ```
 
-**Note: ** For example, there is an event called EventX, it passes two params: (int)x and (float)y
+### Assumptions
+
+There is an event called EventX, it passes two params: (int)x and (float)y
  
 ## 1. Define the event
 
