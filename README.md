@@ -26,7 +26,7 @@ pod install HUTypedEvents
 
 ### Assumptions
 
-There is an event called EventX, it passes two params: (int)x and (float)y
+There is an event called `EventX`, and it expects two arguments: `(int) x` and `(float) y`
  
 ## 1. Define the event
 
